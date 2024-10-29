@@ -60,7 +60,7 @@ describe("Automação dos casos de testes da aba de cadastro", () => {
 
     })
 
-    it.only('Realizar cadastro data de nascimento no formato inválido', () => {
+    it.only('Realizar cadastro com data de nascimento no formato inválido', () => {
 
         cy.visit("https://www.kinoplex.com.br");
         cy.wait(4000);
